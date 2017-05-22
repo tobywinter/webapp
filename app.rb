@@ -14,5 +14,5 @@ get '/life' do
 end
 
 get '/me' do
-
+  erb(:index)
 end
